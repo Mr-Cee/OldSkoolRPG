@@ -194,12 +194,14 @@ class Enemy(pygame.sprite.Sprite):
             self.movement_loop -= 1
             if self.movement_loop <= -self.max_travel:
                 self.facing = 'right'
+                self.max_travel = random.randint(7, 30)
 
         if self.facing == 'right':
             self.x_change += ENEMY_SPEED
             self.movement_loop += 1
             if self.movement_loop >= self.max_travel:
                 self.facing = 'left'
+                self.max_travel = random.randint(7, 30)
 
 
 class Block(pygame.sprite.Sprite):
