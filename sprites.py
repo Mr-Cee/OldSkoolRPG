@@ -13,7 +13,6 @@ class Spritesheet:
         sprite.blit(self.sheet, (0, 0), (x, y, width, height))
 
 
-
 class Player(pygame.sprite.Sprite):
     def __init__(self, game, x, y):
         self.game = game
