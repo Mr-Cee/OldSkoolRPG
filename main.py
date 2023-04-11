@@ -19,23 +19,18 @@ class Game:
         self.all_sprites = pygame.sprite.LayeredUpdates()
 
     def update(self):
-        # Todo
-        #Code for updating game
+        # Code for updating game
 
     def draw(self):
-        # Todo
         # Code for drawing to screen
 
     def main(self):
-        # Todo
         # Main Game Loop
 
     def game_over(self):
-        # Todo
         # Code for game over conditions
 
     def intro_screen(self):
-        # Todo
         # Code for showing introduction screen
 
 
